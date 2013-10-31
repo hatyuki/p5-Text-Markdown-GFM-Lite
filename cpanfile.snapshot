@@ -1,0 +1,79 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Class-Accessor-Lite-0.05
+    pathname: K/KA/KAZUHO/Class-Accessor-Lite-0.05.tar.gz
+    provides:
+      Class::Accessor::Lite 0.05
+    requirements:
+      ExtUtils::MakeMaker 6.42
+  Furl-2.19
+    pathname: T/TO/TOKUHIROM/Furl-2.19.tar.gz
+    provides:
+      Furl 2.19
+      Furl::ConnectionCache undef
+      Furl::HTTP 2.19
+      Furl::Headers undef
+      Furl::Request undef
+      Furl::Response undef
+      Furl::ZlibStream undef
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      Class::Accessor::Lite 0
+      Encode 0
+      ExtUtils::CBuilder 0
+      HTTP::Parser::XS 0.11
+      MIME::Base64 0
+      Module::Build 0.38
+      Mozilla::CA 0
+      Scalar::Util 0
+      Socket 0
+      Time::HiRes 0
+      perl 5.008001
+  HTTP-Parser-XS-0.16
+    pathname: K/KA/KAZUHO/HTTP-Parser-XS-0.16.tar.gz
+    provides:
+      HTTP::Parser::XS 0.16
+      HTTP::Parser::XS::PP undef
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      Test::More 0.96
+  IO-Socket-SSL-1.955
+    pathname: S/SU/SULLR/IO-Socket-SSL-1.955.tar.gz
+    provides:
+      IO::Socket::SSL 1.955
+      IO::Socket::SSL::Intercept 1.93
+      IO::Socket::SSL::SSL_Context 1.955
+      IO::Socket::SSL::SSL_HANDLE 1.955
+      IO::Socket::SSL::Session_Cache 1.955
+      IO::Socket::SSL::Utils 0.01
+    requirements:
+      ExtUtils::MakeMaker 0
+      Net::SSLeay 1.46
+      Scalar::Util 0
+  Mozilla-CA-20130114
+    pathname: A/AB/ABH/Mozilla-CA-20130114.tar.gz
+    provides:
+      Mozilla::CA 20130114
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test 0
+      perl 5.006
+  Net-SSLeay-1.55
+    pathname: M/MI/MIKEM/Net-SSLeay-1.55.tar.gz
+    provides:
+      Net::SSLeay 1.55
+      Net::SSLeay::Handle 0.61
+    requirements:
+      ExtUtils::MakeMaker 6.36
+      MIME::Base64 0
+      Test::More 0.60_01
+      perl 5.005
+  Sub-Args-0.08
+    pathname: N/NE/NEKOKAK/Sub-Args-0.08.tar.gz
+    provides:
+      Sub::Args 0.08
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      Test::More 0.96
+      perl 5.008001

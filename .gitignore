@@ -1,0 +1,10 @@
+/.build/
+/_build/
+/Build
+/Build.bat
+/blib
+/local/
+*.swp
+!LICENSE
+MYMETA.*
+/Text-Markdown-GFM-Lite-*
